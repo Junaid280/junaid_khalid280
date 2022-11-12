@@ -100,3 +100,4 @@ st.header("Confusion Matrix")
 cm=confusion_matrix(y_test,model.predict(x_test))
 st.write(cm)
 
+ 
